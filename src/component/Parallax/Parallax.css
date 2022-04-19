@@ -1,0 +1,73 @@
+.parallax-effect img {
+    width: 100vw;
+    height: 80vh;
+}
+
+.parallax-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.90);
+}
+
+.parallax-content h1 {
+    font-size: 70px;
+    -webkit-text-stroke: 1px black;
+    cursor: pointer;
+}
+
+.parallax-content h5 {
+    font-size: 17px;
+}
+
+.parallax-content button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.parallax-content button:hover {
+    background-color: teal;
+    color: white;
+    border: teal;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.bottom-content p {
+    color: teal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1em;
+    font-weight: bold;
+
+}
+
+.footer-content {
+    background-color: #224665;
+    text-align: center;
+    color: white;
+}
+
+.footer-content h4 {
+    padding-bottom: 20px !important;
+    font-weight: bold;
+
+
+}
+.footer-content hr{
+ color: black !important;
+ margin: 10px 100px;
+}

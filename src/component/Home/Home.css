@@ -1,0 +1,48 @@
+.home-page{
+    height: 100vh;
+ 
+   }
+   .parts{
+       height: 100%;
+   }
+.leftH{
+    flex: 1;
+    background: linear-gradient(to right, #005c97, #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+
+}
+
+.rightH{
+ 
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+  
+
+
+}
+.seprator{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.seprator span{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}

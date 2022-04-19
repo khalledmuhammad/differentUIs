@@ -1,0 +1,46 @@
+.rotated-parent{
+  
+    height: 100vh;
+    background-color: #2a2a2a;
+    overflow: hidden;
+}
+.rotated-parent .row{
+    transform: rotate(10deg);
+    border: 3px solid white;
+    width: 100%;
+}
+
+.rotated-parent h1{
+    color:#00ff88;
+    font-size: 55px;
+}
+.rotated-parent p {
+    color:  white;
+    border-top: 3px dashed white;
+    font-size: 20px;
+    width: max-content;
+}
+.rotated-parent p  b {
+    color:  #ffc107;
+   
+}
+.rotated-text{
+    border-left: 4px solid white;
+}
+@media screen and (max-width:600px) {
+    .rotated-parent .row{
+        transform: rotate(0deg);
+        border: none
+      ;
+    }
+    .rotated-text{
+       margin-left: 10px;
+    }
+    .rotated-parent{
+  
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+}
